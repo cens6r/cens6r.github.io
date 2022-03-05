@@ -1,15 +1,9 @@
-function sleep(s) {
-    return new Promise(resolve => setTimeout(resolve, s*1000));
-}
-
 function validation() {
     var headertext = document.getElementById('logo');
     var textboxtext = document.getElementById('txtbox').value;
   
     if (textboxtext == 'help') {
       headertext.innerHTML = "instagram/github/lastfm/spotify"
-      sleep(5)
-      headertext.innerHTML = "全世界を焼き尽くします..."
   }
 
       if (textboxtext == 'instagram') {
