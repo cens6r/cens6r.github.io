@@ -10,7 +10,7 @@ body {
 	height: 100%;
 	font-family: 'IBM_VGA';
 	background-color: rgb(0, 0, 0);
-	color: crimson;
+	color:darkorchid;
 	overflow: hidden;
 	text-align: center;
 	align-content: center;
@@ -25,12 +25,12 @@ body {
 
 .pw {
 	background-color: rgba(0, 0, 0, 0.15);
-	border: 2px solid crimson;
-	color: crimson;
+	border: 2px solid darkorchid;
+	color: darkorchid;
   text-transform: lowercase;
   border-radius: 10px 0px 10px 0px;
   text-align: center;
-  filter: drop-shadow(0px 0px 4px crimson);
+  filter: drop-shadow(0px 0px 4px darkorchid);
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 3px;
@@ -40,20 +40,7 @@ body {
 }
 
 .pw:focus {
-  border: 2px solid #c96b74;
-}
-
-.ISOLATE {
-  background: none; /* Green */
-  border: 2px solid crimson;
-  border-radius: 20px 0px 20px 0px;
-  color: crimson;
-  padding: 5px 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  z-index: -1;
+  border: 2px solid #c96bc1;
 }
 
 #center {
