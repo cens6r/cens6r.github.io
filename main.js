@@ -1,3 +1,5 @@
+console.log('>> help')
+
 function validation() {
     var headertext = document.getElementById('logo');
     var textboxtext = document.getElementById('txtbox').value;
