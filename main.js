@@ -3,7 +3,7 @@ function validation() {
     var textboxtext = document.getElementById('txtbox').value;
   
     if (textboxtext == 'help') {
-      headertext.innerHTML = "instagram/github/lastfm/spotify"
+        window.open('https://censor.is-a.dev/help');
   }
 
       if (textboxtext == 'instagram') {
