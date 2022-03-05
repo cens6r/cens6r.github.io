@@ -3,11 +3,11 @@ function validation() {
     var textboxtext = document.getElementById('txtbox').value;
   
       if (textboxtext == 'instagram') {
-      window.location.replace('https://instagr.am/webcxge', '_blank');
+      window.open('https://instagr.am/webcxge', '_blank');
   }
 
       if (textboxtext == "github") {
-      window.location.replace('https://github.com/cens6r', '_blank')  
+      window.open('https://github.com/cens6r', '_blank')  
   }
   
       if (textboxtext == 'lastfm') {
