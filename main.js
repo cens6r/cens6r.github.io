@@ -23,6 +23,11 @@ function validation() {
       if (textboxtext == 'spotify') {
       window.open('https://open.spotify.com/user/utqeto9r0v0qsgducht24jl3f', '_blank');
   }
+
+      if (textboxtext == 'discord') {
+          window.open('discord://https://discord.com/users/581470718387159040', '_blank');
+      }
+
   }
   
   function handle(e){
