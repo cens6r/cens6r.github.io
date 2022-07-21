@@ -1,4 +1,5 @@
 -- People of Color Detection System
+-- Note: This code is meant for satire and joke purposes and I am not responsible for any misuses of this code.
 -- https://github.com/cens6r
 
 local banMsg = "Sorry there was an unexpected data crash while loading your client. Please contact an admin."
